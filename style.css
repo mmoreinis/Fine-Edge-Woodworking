@@ -1,0 +1,26 @@
+.full-width-menu {
+width:100%!important;
+margin: 0 auto !important;
+padding:0!important;
+}
+
+.home .wp-block-template-part .home-header-section {
+position:relative!important;
+padding:10px;
+margin-bottom:20px;
+}
+
+.home .wp-block-template-part .home-header-section .wp-block-navigation {
+gap:1rem!important;
+}
+
+.home .wp-block-template-part .home-header-section .wp-block-navigation__responsive-close {
+width:120%!important;
+}
+
+@media (min-width: 885px) and (max-width: 1024px) {
+ .wp-container-core-group-is-layout-6c531013 h1 {
+display:block;
+width:220px!important;
+}
+}
