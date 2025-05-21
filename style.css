@@ -1,26 +1,40 @@
-.full-width-menu {
-width:100%!important;
-margin: 0 auto !important;
-padding:0!important;
-}
-
-.home .wp-block-template-part .home-header-section {
-position:relative!important;
-padding:10px;
-margin-bottom:20px;
-}
-
-.home .wp-block-template-part .home-header-section .wp-block-navigation {
-gap:1rem!important;
-}
-
-.home .wp-block-template-part .home-header-section .wp-block-navigation__responsive-close {
-width:120%!important;
-}
 
 @media (min-width: 885px) and (max-width: 1024px) {
  .wp-container-core-group-is-layout-6c531013 h1 {
 display:block;
 width:220px!important;
 }
+}
+.main-influencer .wp-block-buttons:after{ 
+display:none!important;
+}
+
+.woof_products_top_panel
+{text-align:center!important;
+}
+.woof_products_top_panel_ul li:nth-child(1){
+width:100%!important;
+text-align:center!important;
+} 
+.woof_products_top_panel_ul li:nth-child(2){
+display:none!important;
+} 
+
+.wp-block-navigation__responsive-container a:hover, .footer-box p a:hover {
+font-weight:bold !important;
+color:#b51b1b!important;
+}
+
+.wp-container-core-columns-is-layout-3289e726 .woocommerce-Price-amount, .wp-container-core-columns-is-layout-3289e726 .wp-block-post-title a {
+color:#ccc!important;
+}
+
+.gcw-caption h5 {
+display:none!Important;
+}
+
+@media screen and (max-width: 900px) {
+    .wp-container-core-navigation-is-layout-56356db6 .wp-block-navigation__responsive-container-open {
+        background: transparent !important; 
+    }
 }
